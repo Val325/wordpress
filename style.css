@@ -1,0 +1,152 @@
+/*
+Theme Name: example
+Theme URI: 
+Author:
+Author URI: https://wordpress.org/
+Description: my theme
+
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+body, html{
+   margin: 0px !important;
+   padding: 0px !important;
+	background-color: white;
+	color:white;
+}
+.posts{
+   color: black;
+}
+.menu-menu-container, .menu-menulogin-container{
+   background-color: black;   
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.wp-block-quote{
+   margin:0px;
+}
+.horizontal-menu > li{
+   padding: 0 !important;
+   margin: 1em !important;
+   list-style-type: none !important;
+   display: inline !important;
+}
+.horizontal-menu > li > a{
+   color: white !important;
+   text-decoration: none;
+}
+.horizontal-menu > li > a:hover{
+   color: gray !important;
+   text-decoration: underline;
+}
+.linkpost{
+   margin-left: 70px;
+   color: black !important;
+   text-decoration: none;
+}
+.linkpost:hover{
+   margin-left: 70px;
+   color: gray !important;
+   text-decoration: underline;
+}
+.textcenter{
+   text-align: center;
+}
+.menu-menu-container, .menu-menulogin-container{
+   padding: 3px;
+   margin-top: 0px;
+   border-bottom: 5px solid white;
+}
+h1{
+   margin-left: 1em !important;
+}
+p {
+   margin-left: 2.5em !important;
+}
+.pagination{
+   margin-top: 20px;
+   margin-left: 40px;
+
+}
+.blacktext {
+   color: black;
+}
+.pagination > a{
+   color: black;  
+}
+.form-container {
+   margin: auto;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.form-container input, .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.form-container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+.form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.form-container .btn-login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.form-container a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+.form-container .btn-new {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px; 
+}
+.pub-date{
+   margin-left: 30px;
+}
+img {
+  width: 300px !important;
+  margin: 30px;
+}
