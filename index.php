@@ -53,7 +53,9 @@ if (home_url( $wp->request ) == "http://localhost") {
             echo '<span class="pub-date blacktext">'.get_the_date( 'j F, Y').'</span>';
             echo "<p class='post'>";
             if ( has_post_thumbnail() ) {
+               echo "<div class='image_post'>";
                the_post_thumbnail('thumbnail');
+               echo "</div>";
             } 
 
             the_content();
